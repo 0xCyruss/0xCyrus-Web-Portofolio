@@ -1,0 +1,29 @@
+# Izinkan (YTTA AJA)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# Blokir (YTTA AJA)
+User-agent: *
+Disallow: /admin
+Disallow: /src
+Disallow: /src/hooks
+Disallow: /src/lib
+Disallow: /src/pages
+Disallow: /src/public
+Disallow: /node_modules
+Disallow: /src/components
+Disallow: /src/contexts
+
+Allow: /
+
+# Sitemap lokasi (penting untuk SEO)
+Sitemap: https://yourdomain.com/sitemap.xml
